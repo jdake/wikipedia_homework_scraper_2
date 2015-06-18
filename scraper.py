@@ -7,10 +7,10 @@ import simplejson
 import urllib2
 
 
-QUERY = 'whatsapp'
+QUERY = 'griep'
 #GEOINFO = '53.26521293124656,-9.063720703125,257km'
 RESULTS_PER_PAGE = '1000'
-LANGUAGE = 'en' # For English en; for Dutch nl
+LANGUAGE = 'nl' # For English en; for Dutch nl
 NUM_PAGES = 1 #NUM_PAGES times 10 is number of tweets it will find before stopping */
 
 for page in range(1, NUM_PAGES+1):
